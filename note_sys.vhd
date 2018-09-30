@@ -219,7 +219,7 @@ process (t)
 				play <= "100000000000"; -- g
 			end if;
 		end if;
-	-- 11: Romanian Anthem
+		-- 11: Romanian Anthem
 		if ((sct(0) and (sct(1))) = '1') then 
 			if (cob < 6) and (0 < cob) then
 				play <= "000100000000"; -- e
