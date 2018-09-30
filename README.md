@@ -6,4 +6,5 @@ Coded on a Nexys 3 FPGA Board, displays one of four countries’ (Germany, Russi
 Main file is national_anthem_box.vhd and it starts two subfiles:
 
 For display: ee240_vgadriver.vhd 
+
 For sound: note_sys.vhd 
