@@ -1,13 +1,16 @@
 # National Anthem Box
-Coded on a Nexys 3 FPGA Board, displays one of four countries’ (Germany, Russia, France and Romania) flags 
-on a VGA screen and plays their national anthems on a buzzer. 
-Generated frequencies using square waves to compose music and coded a VGA driver to display country flags. 
-Additionally program has a 13 notes (C4 to C5) organ in itself.
+Author: Guney Tombak (guneytombak@gmail.com)  
+Professor: Dr. Şenol Mutlu 
 
----
+Implemented for the final project of Digital System Design (EE 240) at Boğaziçi University, June 2017
 
-Main file is  `national_anthem_box.vhd ` and it is connected to two subfiles:
+Coded on a Nexys 3 FPGA Board, displays the flag of one of four countries (Germany, Russia, France, and Romania) on a VGA screen and plays their national anthems on a buzzer. 
+The frequencies are generated using square waves to compose music and coded a VGA driver to display country flags. 
+Additionally, the program has a 13 notes (C4 to C5) organ.
 
-For display: `ee240_vgadriver.vhd ` 
+## Details
 
+Main file: `national_anthem_box.vhd`  
+
+For display: `ee240_vgadriver.vhd`  
 For sound:  `note_sys.vhd`
